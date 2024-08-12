@@ -8,6 +8,7 @@ import UseRef from './components/useRef';
 import UserList from './components/UserList';
 import CreateUser from './components/CreateUser';
 import UseReducer from './components/UseReducer2';
+import ClassComponent from './components/ClassComponent'
 
 const MarginTwenty = styled.div`
   margin: 20px;
@@ -17,6 +18,10 @@ const MarginTwenty = styled.div`
 function App() {
   return (
     <> 
+      <MarginTwenty>
+        <ClassComponent></ClassComponent>
+      </MarginTwenty>
+      <hr/>
       <MarginTwenty>
         <UseReducer></UseReducer>
       </MarginTwenty>
