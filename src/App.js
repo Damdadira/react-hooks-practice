@@ -1,3 +1,4 @@
+import styled from 'styled-components';
 import Hook from './components/Hook';
 import JavaScript from './components/Javascript';
 import Props from './components/Props';
@@ -7,7 +8,6 @@ import UseRef from './components/useRef';
 import UserList from './components/UserList';
 import CreateUser from './components/CreateUser';
 import UseReducer from './components/UseReducer2';
-import styled from 'styled-components';
 
 const MarginTwenty = styled.div`
   margin: 20px;
